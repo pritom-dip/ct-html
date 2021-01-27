@@ -13,6 +13,9 @@ body {
 img {
     max-width: 100%;
 }
+*:focus {
+    outline: none;
+}
 a:focus, input:focus, textarea:focus, button:focus {
     text-decoration: none;
     outline: none;
@@ -146,14 +149,14 @@ p {
 
 .header-top {
     background-color: #243c6e;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 .header-contact ul li {
     display: inline-block;
     margin-right: 20px;
-    color: #c6c6c6;
-    font-size: 16px;
+    color: #fff;
+    font-size: 14px;
     font-weight: 500;
 }
 .header-contact ul li:last-child {
@@ -163,15 +166,15 @@ p {
     margin-right: 10px;
 }
 .header-contact ul li a {
-    color: #c6c6c6;
+    color: #fff;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 14px;
 }
 .header-right {}
 .header-right .social {}
 .header-right .social .follow-us {
-    font-size: 16px;
-    color: #c6c6c6;
+    font-size: 14px;
+    color: #fff;
     padding-right: 10px;
     font-weight: 500;
 }
@@ -181,8 +184,8 @@ p {
     padding: 0 5px;
 }
 .header-right .social ul li a {
-    color: #c6c6c6;
-    font-size: 16px;
+    color: #fff;
+    font-size: 14px;
 }
 .header-right .social ul li a:hover {
     color: #fff;
